@@ -3,6 +3,8 @@ const inputArray = [1, 2, 3, 4];
 const output = document.createElement("div");
 document.body.appendChild(output);
 
+const p = document.createElement("p");
+output.appendChild(p);
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
